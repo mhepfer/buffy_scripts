@@ -118,7 +118,7 @@ if __name__ == '__main__':
         while len(count) < 3:
             count = '0' + count
         # 067?
-        if min_trans in [46, 56, 60, 66, 68, 78, 83, 85, 116]:
+        if min_trans in [46, 56, 60, 66, 67, 68, 78, 83, 85, 116]:
             script = hand_parsed_script(count)
         else:
             url_string = 'http://www.buffyworld.com/buffy/transcripts/' + count + '_tran.html'
